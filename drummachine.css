@@ -1,0 +1,144 @@
+.unselected-dot {
+    position: relative;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #7c3030;
+    border: 2px solid darkred;
+}
+.selected-dot {
+    background-color: red;
+}
+.potentiometer {
+    position: relative;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #2f2f2f;
+    border: 2px solid #2b2b2b;
+}
+.reference {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 4px;
+    height: 13px;
+    background-color: red;
+}
+.instrument {
+    margin: 5px;
+}
+.word {
+    width: min-content;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    color: #abaaa6;
+    font-family: "Verdana";
+    
+}
+.brown {
+    color: #a89d65
+}
+.insbutton {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 10%;
+    margin: auto;
+    width: 60px;
+    height: 20px;
+    background-color: #e1d49f;
+    padding: 3px;
+    font-size: 80%
+}
+#bar {
+    position: relative;
+    display: flex;
+    width: min-content;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+#controlBar {
+    position: relative;
+    display: flex;
+    width: min-content;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+#potsBar {
+    position: relative;
+    display: flex;
+    width: min-content;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+#case {
+    position: relative;
+    display: block;
+    background-color: #464344;
+    width: min-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 5px;
+    padding: 10px;
+}
+.button {
+    border-radius: 10%;
+    margin: 5px;
+    width: 46px;
+    height: 77px;
+    margin: 5px;
+}
+.orange {
+    background-color: orange;
+    border: 3px solid darkorange;
+}
+.yellow {
+    background-color: #f2dd5a;
+    border: 3px solid #d9c650;
+}
+.white {
+    background-color: #f2ede0;
+    border: 3px solid #d0cec9;
+}
+.red {
+    background-color: red;
+    border: 3px solid darkred;
+}
+.green {
+    background-color: green;
+}
+.grey {
+    background-color: grey;
+}
+
+.insColor {
+   color: #897e46;
+}
+#bigPotentiometer {
+    position: relative;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #2f2f2f;
+    border: 2px solid #2b2b2b;
+}
